@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title> HTML CSS Table Cheatsheet </title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+  </header>
+
+  <body>
+    <h1>HTML CSS Table Cheatsheet</h1>
+    <h2>HTML</h2>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th> HTML Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+
+        <tr class="active-row">
+          <td>&lt;thead&gt;</td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+
+        <tr>
+          <td>&lt;tbody&gt;</td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+
+        <tr class="active-row">
+          <td>&lt;tr&gt;</td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>Table Data</td>
+          <td>The table row data.</td>
+        </tr>
+
+        <tr class="active-row">
+          <td>&lt;tfoot&gt;</td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <h2>CSS</h2>
+    <table class="styled-table">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Details</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1. </td>
+          <td>.styled-table tbody tr:nth-of-type(even)</td>
+          <td>For row with no calss</td>
+        </tr>
+
+        <tr class="active-row">
+          <td>2.</td>
+          <td>.styled-table tbody tr:last-of-type </td>
+          <td>For the last row</td>
+        </tr>
+
+        <tr>
+          <td>3.</td>
+          <td>.styled-table tbody tr.active-row</td>
+          <td>For the role with class="active-row"</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
